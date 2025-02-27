@@ -34,5 +34,5 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/pgvector/pgvector:pg16 docker://crpi-7b5arz105czfy60p.cn-beijing.personal.cr.aliyuncs.com/register-gh/pgvector:pg16
+        skopeo copy docker://docker.io/tensorchord/pgvecto-rs:pg16-v0.3.0 docker://crpi-7b5arz105czfy60p.cn-beijing.personal.cr.aliyuncs.com/register-gh/pgvecto-rs:pg16-v0.3.0
 
