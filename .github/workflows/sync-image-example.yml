@@ -34,7 +34,7 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/elasticsearch:7.17.5 docker://crpi-7b5arz105czfy60p.cn-beijing.personal.cr.aliyuncs.com/register-gh/elasticsearch:7.17.5
+        skopeo copy docker://docker.io/langgenius/dify-plugin-daemon:0.0.3-local docker://crpi-7b5arz105czfy60p.cn-beijing.personal.cr.aliyuncs.com/register-gh/dify-plugin-daemon:0.0.3-local
 
 
 
